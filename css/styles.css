@@ -1,0 +1,35 @@
+h1{
+    justify-content: center;
+    text-align: center;font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    color: #fff;
+    padding-top: 2%;
+}
+
+span {
+    color: rgb(242, 115, 11);
+};
+
+hr{
+    color: rgb(242, 115, 11);
+}
+
+a{  
+
+    color: #fff;
+    text-decoration:none;
+}
+.navbar{
+    background-color: rgb(70, 69, 69);
+    margin: -2.9% -1.1%;
+    color: #fff;
+    padding-left: 200% auto;
+}
+
+.navbar-items{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    margin-top: ;
+    /* display:flex; */
+}

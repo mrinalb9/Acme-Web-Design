@@ -6,20 +6,6 @@ body {
     margin: 0%;
 }
 
-.content h1{
-    font-weight: 600;
-    font-size: 1.8em;
-    color: #fff;
-    display: inline-block;
-    position: relative;
-    left: 10%;
-    line-height: 1.5;
-    letter-spacing: 0.9px;
-    /* padding-top: 0.4%;
-    padding-left: 8%;
-    margin-top: 1.9%; */
-}
-
 span {
     color: #E84827;
 }
@@ -33,9 +19,35 @@ li {
 hr {
     margin: 0px;
     border: none;
-    height: 2.8px;
+    height: 2.7px;
 }
 
+
+.navbar{
+    background-color:#35424A;
+    /* margin: -2.9% -1.1%; */
+    margin-top: -0.9%;
+    margin-left: -1.2%;
+    margin-right: -1.1%;
+    margin-bottom: 0%;
+    color: #fff;
+    padding-top: 25px;
+}
+
+.navbar-content h1{
+    font-weight: 600;
+    font-size: 1.8em;
+    color: #fff;
+    display: inline-block;
+    position: relative;
+    left: 10%;
+    line-height: 1.5;
+    letter-spacing: 0.9px;
+    padding-bottom: 0.1em;
+    /* padding-top: 0.4%;
+    padding-left: 8%;
+    margin-top: 1.9%; */
+}
 
 .navbar li a{  
     color: #fff;
@@ -44,43 +56,35 @@ hr {
     margin: auto 1em;
     font-style: normal;
 }
-.navbar{
-    background-color:#35424A;
-    /* margin: -2.9% -1.1%; */
-    margin-top: -1.9%;
-    margin-left: -1.2%;
-    margin-right: -1.1%;
-    margin-bottom: 0%;
-    color: #fff;
-    padding-top: 30px;
-}
-
-.content {
-    margin: 0%;
-}
 
 .navbar-items{
     /* padding: 10; */
     list-style-type: none;
-    display:inline-block;
+    display: inline-block;
     /* text-align: center; */
     margin: 1em auto 1em 50%;
-    padding: 0px;
+    /* padding: 0px; */
     font-size: 120%;
     font-weight:normal;
+    padding-bottom: 0.9em;
+}
+
+.white {
+    color: #fff;
 }
 
 .section {
     background-image: url("/images/laptop.jpg");
     background-size: cover;
     width: 100em;
-    height: 26em;
-    opacity:0.8;
-    margin-top: -33.44px;
+    height: 25em;
+    opacity: 0.8;
+    margin-top: -41.9px;
+    /* bec of inline block */
 }
 
 .section h1{
-    font-size: 3.5em;
+    font-size: 3.9em;
     justify-content: center;
     text-align: center;
     padding-top: 6%;
@@ -89,12 +93,37 @@ hr {
 .section p {
     text-align: center;
     /* padding-top: 4em; */
-    margin: 30px 9.5em;
+    margin: 30px 9.6em;
+    font-size: 1.3em;
+    font-weight: 400;
 }
 
-.white {
-    color: #fff;
+/* Newsletter */
+.newsletter {
+    background-color: #35424A;
+    padding: 1.9em;
 }
+
+#label {
+    font-weight: 500;
+    padding: 1em 19em 0em 5.2em;
+    font-size: x-large;
+}
+
+#input {
+    margin-left: 4.8em;
+    height: 2.2em;
+    width: 19em;
+}
+
+.newsletter button {
+    background-color:#E84827;
+    border: none;
+    height: 2.8em;
+    width: 100px;
+}
+
+
 
 .navbar li a:hover {
     color: rgb(139, 141, 143);

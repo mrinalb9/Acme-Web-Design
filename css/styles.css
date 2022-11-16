@@ -2,7 +2,11 @@
     font-family: 'Roboto', sans-serif;
 }
 
-h1{
+body {
+    margin: 0%;
+}
+
+.content h1{
     font-weight: 600;
     font-size: 1.8em;
     color: #fff;
@@ -18,10 +22,6 @@ h1{
 
 span {
     color: #E84827;
-};
-
-hr{
-    background-color: #E84827;
 }
 
 li {
@@ -29,6 +29,13 @@ li {
     padding: 0%;
     font-size: medium;
 }
+
+hr {
+    margin: 0px;
+    border: none;
+    height: 2.8px;
+}
+
 
 .navbar li a{  
     color: #fff;
@@ -43,8 +50,13 @@ li {
     margin-top: -1.9%;
     margin-left: -1.2%;
     margin-right: -1.1%;
+    margin-bottom: 0%;
     color: #fff;
     padding-top: 30px;
+}
+
+.content {
+    margin: 0%;
 }
 
 .navbar-items{
@@ -56,6 +68,32 @@ li {
     padding: 0px;
     font-size: 120%;
     font-weight:normal;
+}
+
+.section {
+    background-image: url("/images/laptop.jpg");
+    background-size: cover;
+    width: 100em;
+    height: 26em;
+    opacity:0.8;
+    margin-top: -33.44px;
+}
+
+.section h1{
+    font-size: 3.5em;
+    justify-content: center;
+    text-align: center;
+    padding-top: 6%;
+}
+
+.section p {
+    text-align: center;
+    /* padding-top: 4em; */
+    margin: 30px 9.5em;
+}
+
+.white {
+    color: #fff;
 }
 
 .navbar li a:hover {

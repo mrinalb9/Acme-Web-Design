@@ -18,10 +18,9 @@ li {
 
 hr {
     margin: 0px;
-    border: none;
+    /* border: none; */
     height: 2.7px;
 }
-
 
 .navbar{
     background-color:#35424A;
@@ -82,7 +81,7 @@ hr {
 .section {
     background-image: url("/images/laptop.jpg");
     background-size: cover;
-    width:fit-content;
+    width: fit-content;
     height: 25em;
     opacity: 0.8;
     margin-top: -41.9px;
@@ -181,7 +180,7 @@ figure article {
     text-align: center;
 }
 
-footer {
+.main-footer {
     position: absolute;
     /* width: auto; */
     /* height: 100px; */
@@ -191,7 +190,7 @@ footer {
     height: 5.7rem; 
 }
 
-footer p {
+.main-footer p {
     text-align: center;
     position: relative;
     top: 1.15em;
@@ -199,11 +198,135 @@ footer p {
 }
 
 /* About Section */
-.about h1 {
-    font-size: medium;
+
+.about {
+    /* white-space: nowrap; */
+    margin: 0;
+    height: 0;
+    font-size: 0.93em;
 }
 
-.about 
+.about h1 {
+    font-size: large;
+}
+
+.main-article {
+    display: inline-block;
+    width: 50em;
+    /* margin: 0em; */
+    margin-left: 3.6em;
+    padding: 0em;
+    position: relative;
+    left: 6em;
+}
+
+.main-article h1 {
+    font-weight: 600;
+}
+
+.side-article {
+    display: inline-block;
+    background-color: #35424A;
+    margin-bottom: 10em;
+    width: 20em;
+    padding: 1em 1em 1.9em 1em;
+    position: relative;
+    left: 11%;
+    bottom: 6em;
+}
+
+.side-article 
+
+section {
+    /* width: 5em; */
+    /* display: inline-block; */
+    margin: 0;
+    padding: 0;
+}
+
+.main-article section article:nth-child(3){
+    background-color: #35424A;
+    margin-top: 1em;
+    padding: 1em;
+    position: relative;
+}
+
+.about-footer {
+    position: absolute;
+    /* width: auto; */
+    /* height: 100px; */
+    background-color: #E84827;
+    /* bottom: -16.5em; */
+    top: 33.5em;
+    width: 100%;
+    height: 5.7rem;
+}
+
+.about-footer p {
+    text-align: center;
+    position: relative;
+    top: 1.15em;
+    font-size:medium;
+}
+
+/* Services Section  */
+
+.services-desc h1 {
+    font-size: large;
+    margin-left: 8.3em;
+}
+
+.cards {
+    padding-top: 0.1em;
+    margin: 1em;
+    display: inline-block;
+}
+
+.services-desc .cards .card-content {           // start from here
+    margin: 10em;
+}
+
+.services-desc card .container {
+    background-color: #E8E8E8;
+    height: 11.5em;
+    width: 50em;
+    border: 1px solid rgb(202, 201, 201);
+    margin: auto 8.3em auto 8.3em;
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-bottom: -18px;
+}
+
+.form {
+    display: inline-block;
+}
+
+.form .container{
+    background-color: #35424A;
+    width: 23em;
+    height: 21.4em;
+    position: relative;
+    bottom: 8.2em;
+    right: 6em;
+}
+
+.form-content {
+    padding: 1em;
+}
+
+.form-content h3{
+    /* padding: 1em; */
+}
+
+.btn {
+    background-color: #E84827;
+    border: 0px;
+    width: 6em;
+    height: 3em;
+}
+
+/* Hover elements */
 
 .navbar li a:hover {
     color: rgb(139, 141, 143);

@@ -278,24 +278,25 @@ section {
 
 .cards {
     padding-top: 0.1em;
-    margin: 1em;
+    /* margin: 1em; */
     display: inline-block;
 }
 
-.services-desc .cards .card-content {           // start from here
-    margin: 10em;
+.each-card {
+    margin-bottom: 2em ;
+    margin-left: 1em;
 }
 
 .services-desc card .container {
     background-color: #E8E8E8;
     height: 11.5em;
-    width: 50em;
+    width: 47em;
     border: 1px solid rgb(202, 201, 201);
     margin: auto 8.3em auto 8.3em;
     padding-top: 1em;
     padding-left: 1em;
     padding-right: 1em;
-    margin-bottom: -18px;
+    margin-bottom: -29px;
 }
 
 .form {
@@ -305,10 +306,19 @@ section {
 .form .container{
     background-color: #35424A;
     width: 23em;
-    height: 21.4em;
+    height: 18.4em;
     position: relative;
-    bottom: 8.2em;
-    right: 6em;
+    bottom: 19.1em;
+    right: 4.9em;
+    padding-bottom: 0;
+}
+
+.form .container label {
+    font-size: 0.9em;
+}
+
+.form .container input,textarea {
+    margin: .9px auto;
 }
 
 .form-content {
@@ -322,7 +332,7 @@ section {
 .btn {
     background-color: #E84827;
     border: 0px;
-    width: 6em;
+    width: 5.1em;
     height: 3em;
 }
 
